@@ -39,3 +39,5 @@ const mark = {
 }
 
 console.log(mark.calcBMI(mark.weight, mark.height))
+
+johnBMI > markBMI ? console.log(`${john.firstName} ${john.lastName}'s BMI (${john.calcBMI(john.weight, john.height)}) is highter than ${mark.firstName} ${mark.lastName}'s BMI (${mark.calcBMI(mark.weight, mark.height)})`) : console.log(`${mark.firstName} ${mark.lastName}'s BMI (${mark.calcBMI(mark.weight, mark.height)}) is highter than ${john.firstName} ${john.lastName}'s BMI (${john.calcBMI(john.weight, john.height)})`)
