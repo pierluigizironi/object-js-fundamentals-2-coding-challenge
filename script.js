@@ -19,11 +19,23 @@ const john = {
     lastName: 'Smith',
     weight: 78,
     height: 1.69,
+    calcBMI: function(weight, height) {
+        johnBMI = this.weight / this.height ** 2
+        return johnBMI
+    }
 }
+
+console.log(john.calcBMI(john.weight, john.height))
 
 const mark = {
     firstName: 'Mark',
     lastName: 'Miller',
     weight: 92,
     height: 1.95,
+    calcBMI: function(weight, height) {
+        markBMI = this.weight / this.height ** 2
+        return markBMI
+    }
 }
+
+console.log(mark.calcBMI(mark.weight, mark.height))
